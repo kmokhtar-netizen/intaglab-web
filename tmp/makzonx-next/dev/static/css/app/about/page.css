@@ -1,0 +1,214 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[3]!./src/app/about/page.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+.page_container__eSsIu {
+    padding-top: 6rem;
+    min-height: 100vh;
+}
+
+.page_hero__qs3fl {
+    text-align: center;
+    padding: 6rem 2rem;
+    background: radial-gradient(circle at top center, rgba(99, 102, 241, 0.15), transparent 70%);
+}
+
+.page_title__7_S0z {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+}
+
+.page_subtitle__HMpml {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.page_section__yPW7u {
+    padding: 6rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page_missionGrid__fdMDz {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.page_textBlock__Azh_8 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.page_textBlock__Azh_8 p {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.page_statsGrid__OP3OV {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 2rem;
+    padding: 3rem;
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+    margin: 4rem 0;
+}
+
+.page_statCard__Njiaq {
+    text-align: center;
+}
+
+.page_statValue__YBGuP {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(135deg, #fff 0%, #a5b4fc 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.page_statLabel__b6m5h {
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.page_valuesGrid__z_Jw_ {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.page_valueCard__hrsHn {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.page_valueCard__hrsHn:hover {
+    transform: translateY(-10px);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.page_iconWrapper__e8Mhw {
+    width: 60px;
+    height: 60px;
+    background: rgba(99, 102, 241, 0.2);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+}
+
+.page_valueCard__hrsHn h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.page_valueCard__hrsHn p {
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+
+    .page_missionGrid__fdMDz,
+    .page_statsGrid__OP3OV,
+    .page_valuesGrid__z_Jw_ {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .page_statsGrid__OP3OV {
+        padding: 2rem;
+    }
+}
+
+.page_storySection__eXXlx {
+    margin: 6rem 0;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page_sectionTitle__eC3_O {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(135deg, #fff 0%, #a5b4fc 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.page_storyContent__F0EN_ p {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.page_teamSection__hDsKN {
+    margin: 6rem 0;
+    text-align: center;
+}
+
+.page_teamGrid__EQZ9U {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.page_teamCard__aM7zB {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.page_teamCard__aM7zB:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.page_teamAvatar___oqCJ {
+    width: 80px;
+    height: 80px;
+    background: rgba(99, 102, 241, 0.1);
+    border-radius: 50%;
+    margin: 0 auto 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+}
+
+.page_teamCard__aM7zB h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.page_teamCard__aM7zB p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+}

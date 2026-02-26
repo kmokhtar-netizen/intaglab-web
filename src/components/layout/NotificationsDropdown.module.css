@@ -1,0 +1,216 @@
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.bellButton {
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.bellButton:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.bellButtonActive {
+    color: var(--primary);
+    background: rgba(99, 102, 241, 0.1);
+}
+
+.badge {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background-color: #ef4444;
+    color: white;
+    font-size: 0.65rem;
+    font-weight: bold;
+    min-width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4px;
+    border: 2px solid #0f172a;
+    /* match typical dark nav background */
+}
+
+/* Dropdown styling */
+.dropdown {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: -20px;
+    /* Align slightly offset from center of icon */
+    width: 320px;
+    background: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    overflow: hidden;
+    transform-origin: top right;
+}
+
+/* RTL Support */
+[dir="rtl"] .dropdown {
+    right: auto;
+    left: -20px;
+    transform-origin: top left;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.title {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #fff;
+    margin: 0;
+}
+
+.markReadBtn {
+    background: transparent;
+    border: none;
+    color: var(--primary);
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.markReadBtn:hover {
+    text-decoration: underline;
+}
+
+/* List styling */
+.list {
+    max-height: 380px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Custom Scrollbar */
+.list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.list::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.list::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+.list::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.emptyState {
+    padding: 2rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Item styling */
+.item {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    gap: 0.75rem;
+    transition: background 0.2s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.item:hover {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.itemUnread {
+    background: rgba(99, 102, 241, 0.03);
+}
+
+.itemIcon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.iconApproved {
+    background: rgba(34, 197, 94, 0.15);
+    color: #4ade80;
+}
+
+.iconRejected {
+    background: rgba(239, 68, 68, 0.15);
+    color: #f87171;
+}
+
+.iconSystem {
+    background: rgba(99, 102, 241, 0.15);
+    color: #818cf8;
+}
+
+.itemContent {
+    flex: 1;
+}
+
+.itemTitle {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #f8fafc;
+    margin: 0 0 0.25rem 0;
+}
+
+.itemMessage {
+    font-size: 0.8rem;
+    color: #cbd5e1;
+    line-height: 1.4;
+    margin: 0 0 0.4rem 0;
+}
+
+.itemTime {
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+    .dropdown {
+        position: fixed;
+        top: 70px;
+        /* Below navbar */
+        left: 10px;
+        right: 10px;
+        width: auto;
+    }
+}

@@ -1,0 +1,201 @@
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto 4rem auto;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.tabsContainer {
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.tab {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    padding: 1.25rem 1rem;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid transparent;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    font-family: inherit;
+}
+
+.tab:hover {
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.tabText {
+    white-space: nowrap;
+}
+
+.activeIndicator {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    z-index: 2;
+}
+
+.contentContainer {
+    position: relative;
+    padding: 3rem 2rem;
+    min-height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.activeContent {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+    max-width: 700px;
+}
+
+.iconWrapper {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.iconPulse {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 24px;
+    border: 2px solid;
+    z-index: -1;
+}
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+
+/* Specific RTL support for the flex alignment */
+[dir="rtl"] .textContent {
+    align-items: flex-start;
+}
+
+[dir="rtl"] .rtlArrow {
+    transform: scaleX(-1);
+    /* Flips the arrow direction */
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0.75rem;
+    line-height: 1.2;
+}
+
+.description {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.actionBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 100px;
+    color: white;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.actionBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.progressTrack {
+    height: 3px;
+    background: rgba(255, 255, 255, 0.05);
+    width: 100%;
+}
+
+.progressBar {
+    height: 100%;
+    width: 0%;
+}
+
+@media (max-width: 768px) {
+    .tabsContainer {
+        flex-direction: column;
+    }
+
+    .tab {
+        padding: 1rem;
+        border-bottom: none;
+        border-left: 2px solid transparent;
+        justify-content: flex-start;
+    }
+
+    .activeIndicator {
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: auto;
+        width: 2px;
+        height: 100%;
+    }
+
+    [dir="rtl"] .activeIndicator {
+        left: auto;
+        right: 0;
+    }
+
+    [dir="rtl"] .tab {
+        border-left: none;
+        border-right: 2px solid transparent;
+    }
+
+    .activeContent {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .textContent {
+        align-items: center;
+    }
+
+    [dir="rtl"] .textContent {
+        align-items: center;
+    }
+}

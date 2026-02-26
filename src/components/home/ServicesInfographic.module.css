@@ -1,0 +1,393 @@
+/* ========================================
+   Services Infographics Section
+   ======================================== */
+.infographicSection {
+    position: relative;
+    padding: 6rem 2rem;
+    overflow: hidden;
+}
+
+.infographicSection::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(180deg,
+            transparent 0%,
+            rgba(99, 102, 241, 0.2) 20%,
+            rgba(168, 85, 247, 0.2) 80%,
+            transparent 100%);
+    z-index: 0;
+}
+
+.infographicHeader {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 4rem;
+    position: relative;
+    z-index: 1;
+}
+
+.infographicOverline {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    background: linear-gradient(135deg, #818cf8, #a78bfa);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.75rem;
+}
+
+.infographicTitle {
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    font-weight: 800;
+    color: #fff;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.infographicSubtitle {
+    font-size: 1.05rem;
+    color: rgba(255, 255, 255, 0.45);
+    line-height: 1.6;
+}
+
+/* Steps Container */
+.stepsContainer {
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+/* Each Service Row */
+.serviceRow {
+    display: grid;
+    grid-template-columns: 1fr 80px 1fr;
+    align-items: center;
+    gap: 0;
+}
+
+.serviceRowReverse .serviceContent {
+    order: 3;
+}
+
+.serviceRowReverse .serviceVisual {
+    order: 1;
+}
+
+/* Center Node */
+.nodeCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+
+.nodeNumber {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.nodeNumberSurplus {
+    background: linear-gradient(135deg, #6366f1, #818cf8);
+    box-shadow: 0 0 40px rgba(99, 102, 241, 0.3);
+}
+
+.nodeNumberMachinery {
+    background: linear-gradient(135deg, #a855f7, #c084fc);
+    box-shadow: 0 0 40px rgba(168, 85, 247, 0.3);
+}
+
+.nodeNumberOem {
+    background: linear-gradient(135deg, #ec4899, #f472b6);
+    box-shadow: 0 0 40px rgba(236, 72, 153, 0.3);
+}
+
+.nodePulse {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 2px solid currentColor;
+    opacity: 0;
+    animation: pulseRing 2.5s ease-out infinite;
+}
+
+@keyframes pulseRing {
+    0% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+/* Service Content */
+.serviceContent {
+    padding: 2rem;
+}
+
+.serviceTag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.35rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    letter-spacing: 0.02em;
+}
+
+.serviceTagSurplus {
+    background: rgba(99, 102, 241, 0.12);
+    color: #818cf8;
+}
+
+.serviceTagMachinery {
+    background: rgba(168, 85, 247, 0.12);
+    color: #c084fc;
+}
+
+.serviceTagOem {
+    background: rgba(236, 72, 153, 0.12);
+    color: #f472b6;
+}
+
+.serviceTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.75rem;
+    line-height: 1.3;
+}
+
+.serviceDesc {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.7;
+    margin-bottom: 1.25rem;
+}
+
+.serviceFeatures {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.serviceFeatureItem {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.featureCheck {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.featureCheckSurplus {
+    background: rgba(99, 102, 241, 0.15);
+    color: #818cf8;
+}
+
+.featureCheckMachinery {
+    background: rgba(168, 85, 247, 0.15);
+    color: #c084fc;
+}
+
+.featureCheckOem {
+    background: rgba(236, 72, 153, 0.15);
+    color: #f472b6;
+}
+
+/* Service Visual */
+.serviceVisual {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visualCard {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 1.25rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.visualCardInner {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 1.25rem;
+    padding: 1.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.visualCardInner::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    opacity: 0.08;
+    pointer-events: none;
+}
+
+.visualCardSurplus .visualCardInner::after {
+    background: radial-gradient(circle, #6366f1, transparent);
+}
+
+.visualCardMachinery .visualCardInner::after {
+    background: radial-gradient(circle, #a855f7, transparent);
+}
+
+.visualCardOem .visualCardInner::after {
+    background: radial-gradient(circle, #ec4899, transparent);
+}
+
+.visualIconWrap {
+    width: 64px;
+    height: 64px;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+}
+
+.visualIconSurplus {
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(99, 102, 241, 0.05));
+    color: #818cf8;
+}
+
+.visualIconMachinery {
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.2), rgba(168, 85, 247, 0.05));
+    color: #c084fc;
+}
+
+.visualIconOem {
+    background: linear-gradient(135deg, rgba(236, 72, 153, 0.2), rgba(236, 72, 153, 0.05));
+    color: #f472b6;
+}
+
+.visualStats {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.visualStat {
+    display: flex;
+    flex-direction: column;
+}
+
+.visualStatValue {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.visualStatLabel {
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.35);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 0.15rem;
+}
+
+.visualBar {
+    margin-top: 1.25rem;
+    height: 4px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.06);
+    overflow: hidden;
+}
+
+.visualBarFill {
+    height: 100%;
+    border-radius: 2px;
+    transition: width 1.5s ease;
+}
+
+.visualBarSurplus {
+    background: linear-gradient(90deg, #6366f1, #818cf8);
+}
+
+.visualBarMachinery {
+    background: linear-gradient(90deg, #a855f7, #c084fc);
+}
+
+.visualBarOem {
+    background: linear-gradient(90deg, #ec4899, #f472b6);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .serviceRow {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .serviceRowReverse .serviceContent {
+        order: unset;
+    }
+
+    .serviceRowReverse .serviceVisual {
+        order: unset;
+    }
+
+    .nodeCenter {
+        display: none;
+    }
+
+    .infographicSection::before {
+        display: none;
+    }
+
+    .serviceContent,
+    .serviceVisual {
+        padding: 1rem 0;
+    }
+
+    .serviceContent {
+        text-align: center;
+    }
+
+    .serviceFeatures {
+        align-items: center;
+    }
+}

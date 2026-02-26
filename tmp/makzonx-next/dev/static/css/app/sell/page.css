@@ -1,0 +1,471 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[3]!./src/components/forms/ProductIntakeForm.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.ProductIntakeForm_container__C0nyY {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: var(--card-bg);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 24px;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.ProductIntakeForm_title__4rj4_ {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.ProductIntakeForm_subtitle__nnO72 {
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+}
+
+.ProductIntakeForm_form__p5h6H {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.ProductIntakeForm_typeSelector__KcCdz {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 0.5rem;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.ProductIntakeForm_typeBtn__cLhmW {
+    padding: 1rem;
+    border-radius: 12px;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.ProductIntakeForm_typeBtn__cLhmW:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+}
+
+.ProductIntakeForm_typeBtnActive__q5lwY {
+    background: rgba(99, 102, 241, 0.15);
+    color: var(--primary);
+    border: 1px solid var(--primary-glow);
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.1);
+}
+
+.ProductIntakeForm_section__tTf7R {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.ProductIntakeForm_grid__nN_KB {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.ProductIntakeForm_inputGroup__ANSkO {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.ProductIntakeForm_label__4_J_g {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 0.5rem;
+}
+
+.ProductIntakeForm_input__Ytmif,
+.ProductIntakeForm_select__51S9v,
+.ProductIntakeForm_textarea__NqT0T {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 1rem;
+    color: white;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.ProductIntakeForm_input__Ytmif:focus,
+.ProductIntakeForm_select__51S9v:focus,
+.ProductIntakeForm_textarea__NqT0T:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.08);
+    border-color: var(--primary);
+    box-shadow: 0 0 0 4px var(--primary-glow);
+}
+
+.ProductIntakeForm_textarea__NqT0T {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.ProductIntakeForm_uploadZone__V9mDP {
+    border: 2px dashed rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 3rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.ProductIntakeForm_uploadZone__V9mDP:hover {
+    border-color: var(--primary);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.ProductIntakeForm_uploadIcon__OGiZL {
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.ProductIntakeForm_previewGrid__YXNCg {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.ProductIntakeForm_previewItem__YDC_x {
+    position: relative;
+    aspect-ratio: 1;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ProductIntakeForm_previewImage__UrAox {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ProductIntakeForm_removeImage__AteDq {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
+}
+
+.ProductIntakeForm_submitBtn__ccc2I {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: white;
+    padding: 1.2rem;
+    border-radius: 14px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    box-shadow: 0 10px 20px var(--primary-glow);
+    transition: all 0.3s ease;
+}
+
+.ProductIntakeForm_submitBtn__ccc2I:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px var(--primary-glow);
+}
+
+.ProductIntakeForm_submitBtn__ccc2I:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    filter: grayscale(1);
+}
+
+@media (max-width: 600px) {
+    .ProductIntakeForm_grid__nN_KB {
+        grid-template-columns: 1fr;
+    }
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[3]!./src/components/common/Ripple.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.Ripple_rippleContainer__jdlbW {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: auto;
+    /* Allow interaction to trigger onMouseDown */
+    border-radius: inherit;
+    /* Inherit the parent's border radius so the ripple doesn't overflow corners */
+    z-index: 0;
+}
+
+.Ripple_ripple__r3Lql {
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    animation: Ripple_rippleEffect__E3wzW 600ms linear;
+    pointer-events: none;
+    /* The actual ripple circles shouldn't intercept clicks */
+}
+
+@keyframes Ripple_rippleEffect__E3wzW {
+    to {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[3]!./src/components/auth/AuthModal.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.AuthModal_overlay__VO46x {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
+    z-index: 1000;
+}
+
+.AuthModal_modal__7Ph6j {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+    width: 90%;
+    max-width: 420px;
+    background: #1a1a1a;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 24px;
+    padding: 2rem;
+    z-index: 1001;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.AuthModal_closeBtn__XX9gQ {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    color: rgba(255, 255, 255, 0.6);
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.2s;
+    z-index: 10;
+}
+
+.AuthModal_closeBtn__XX9gQ:hover {
+    color: white;
+}
+
+.AuthModal_header__ZF0q9 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.AuthModal_title__rlHlr {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(135deg, #fff 0%, #a5a5a5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.AuthModal_subtitle__dZ_Yg {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.AuthModal_error__LlxgV {
+    background: rgba(220, 38, 38, 0.1);
+    border: 1px solid rgba(220, 38, 38, 0.2);
+    color: #ef4444;
+    padding: 0.75rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+
+.AuthModal_socialButtons__L0wv8 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.AuthModal_emailForm__WjJ2u {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.AuthModal_inputGroup__aBBEo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.AuthModal_inputGroup__aBBEo label {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+}
+
+.AuthModal_inputGroup__aBBEo input {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    color: white;
+    font-size: 0.95rem;
+    transition: all 0.2s;
+}
+
+.AuthModal_inputGroup__aBBEo input:focus {
+    outline: none;
+    border-color: #6366f1;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.AuthModal_submitBtn__4YgIj {
+    background: #6366f1;
+    color: white;
+    border: none;
+    padding: 0.85rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+    margin-top: 0.5rem;
+}
+
+.AuthModal_submitBtn__4YgIj:hover:not(:disabled) {
+    background: #5355c9;
+    transform: translateY(-1px);
+}
+
+.AuthModal_submitBtn__4YgIj:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.AuthModal_divider__hXF3G {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 0.85rem;
+}
+
+.AuthModal_divider__hXF3G::before,
+.AuthModal_divider__hXF3G::after {
+    content: '';
+    flex: 1 1;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.AuthModal_divider__hXF3G::before {
+    margin-right: .5em;
+}
+
+.AuthModal_divider__hXF3G::after {
+    margin-left: .5em;
+}
+
+.AuthModal_switchView__7Sf3P {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.AuthModal_switchView__7Sf3P button {
+    background: none;
+    border: none;
+    color: #6366f1;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 0.25rem;
+}
+
+.AuthModal_switchView__7Sf3P button:hover {
+    text-decoration: underline;
+}
+
+.AuthModal_googleBtn__HwdVo,
+.AuthModal_facebookBtn__iLq6I {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border: none;
+    padding: 0.85rem;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.AuthModal_googleBtn__HwdVo {
+    background: white;
+    color: #1a1a1a;
+}
+
+.AuthModal_facebookBtn__iLq6I {
+    background: #1877F2;
+    color: white;
+}
+
+.AuthModal_googleBtn__HwdVo:hover,
+.AuthModal_facebookBtn__iLq6I:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.AuthModal_googleIcon__ligd4 {
+    width: 20px;
+    height: 20px;
+}
+
+.AuthModal_footer__ostx6 {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.4);
+}

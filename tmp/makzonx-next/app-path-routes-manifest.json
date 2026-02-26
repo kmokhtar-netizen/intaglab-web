@@ -1,0 +1,18 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/admin/page": "/admin",
+  "/admin/posts/page": "/admin/posts",
+  "/admin/users/page": "/admin/users",
+  "/api/translate/route": "/api/translate",
+  "/blog/[slug]/page": "/blog/[slug]",
+  "/blog/page": "/blog",
+  "/favicon.ico/route": "/favicon.ico",
+  "/manufacturers/page": "/manufacturers",
+  "/onboarding/page": "/onboarding",
+  "/page": "/",
+  "/products/[id]/page": "/products/[id]",
+  "/profile/page": "/profile",
+  "/sell/page": "/sell"
+}

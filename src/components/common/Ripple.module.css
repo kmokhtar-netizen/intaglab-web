@@ -1,0 +1,29 @@
+.rippleContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: auto;
+    /* Allow interaction to trigger onMouseDown */
+    border-radius: inherit;
+    /* Inherit the parent's border radius so the ripple doesn't overflow corners */
+    z-index: 0;
+}
+
+.ripple {
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    animation: rippleEffect 600ms linear;
+    pointer-events: none;
+    /* The actual ripple circles shouldn't intercept clicks */
+}
+
+@keyframes rippleEffect {
+    to {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
