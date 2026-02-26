@@ -1,7 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  distDir: '/tmp/makzonx-next',
   images: {
     remotePatterns: [
       {
