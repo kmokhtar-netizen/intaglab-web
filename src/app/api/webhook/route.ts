@@ -2,6 +2,8 @@ import { NextResponse } from 'next/server';
 import Stripe from 'stripe';
 import { adminDb } from '@/lib/firebaseAdmin';
 
+export const dynamic = 'force-dynamic';
+
 // Note: Stripe requires raw body to verify the webhook signature
 // In Next.js App Router, we just read the req.text()
 

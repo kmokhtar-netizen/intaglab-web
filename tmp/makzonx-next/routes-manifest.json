@@ -82,10 +82,22 @@
       "namedRegex": "^/admin/users(?:/)?$"
     },
     {
+      "page": "/api/checkout-session",
+      "regex": "^/api/checkout\\-session(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/checkout\\-session(?:/)?$"
+    },
+    {
       "page": "/api/translate",
       "regex": "^/api/translate(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/translate(?:/)?$"
+    },
+    {
+      "page": "/api/webhook",
+      "regex": "^/api/webhook(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/webhook(?:/)?$"
     },
     {
       "page": "/blog",
@@ -110,6 +122,12 @@
       "regex": "^/onboarding(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/onboarding(?:/)?$"
+    },
+    {
+      "page": "/pricing",
+      "regex": "^/pricing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pricing(?:/)?$"
     },
     {
       "page": "/profile",

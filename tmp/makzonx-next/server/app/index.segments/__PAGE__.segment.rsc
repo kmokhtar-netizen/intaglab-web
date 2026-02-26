@@ -1,10 +1,10 @@
 1:"$Sreact.fragment"
 2:I[47257,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"ClientPageRoot"]
-3:I[52683,["/_next/static/chunks/0a27b4fa17bd18a4.js","/_next/static/chunks/3164c5b7c84bd843.js","/_next/static/chunks/9811a1355034818b.js","/_next/static/chunks/90f66ebddbe5c92e.js","/_next/static/chunks/bd63f2f780e93337.js","/_next/static/chunks/ab148d5102c8da13.js"],"default"]
+3:I[52683,["/_next/static/chunks/0a27b4fa17bd18a4.js","/_next/static/chunks/2a3f5904f7df1b16.js","/_next/static/chunks/9811a1355034818b.js","/_next/static/chunks/90f66ebddbe5c92e.js","/_next/static/chunks/bb35b1431c8f9b64.js","/_next/static/chunks/0ed27d6a3ed9cd4f.js"],"default"]
 6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
-:HL["/_next/static/chunks/53f260492805b35f.css","style"]
-0:{"buildId":"AVYsHgN1-YQ7qJ03t1e-7","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/53f260492805b35f.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/ab148d5102c8da13.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
+:HL["/_next/static/chunks/3b5a515764fa173e.css","style"]
+0:{"buildId":"DnkcwqUyJktSGH8JcbcrJ","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3b5a515764fa173e.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0ed27d6a3ed9cd4f.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
 4:{}
 5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
 8:null
